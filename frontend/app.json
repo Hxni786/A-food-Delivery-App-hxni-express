@@ -25,6 +25,12 @@
     },
     "plugins": [
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "5e4ed95c-9273-4403-9211-dea325d51ea9"
+      }
+    },
+    "owner": "hxni"
   }
 }
