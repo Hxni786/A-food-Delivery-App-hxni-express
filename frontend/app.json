@@ -14,6 +14,7 @@
       "supportsTablet": false
     },
     "android": {
+      "package": "com.hxni786.hxniexpress",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#F7F5F2"
