@@ -15,49 +15,52 @@
 
 ---
 
-## 🚀 Get the App (Real Scanner)
+## 🚀 Standalone Installation (Direct APK)
 
-Ready to experience **hxni Express** on your Android device? Download the latest build directly below:
+The app is now fully **standalone** and **offline-ready**. All restaurant data is embedded directly into the build.
+
+### 💳 Professional Card Scanner
 
 <div align="center">
-  <a href="https://expo.dev/artifacts/eas/kHcpfcayvQPo3QPwt2LV5W.apk">
-    <img src="https://img.shields.io/badge/Download-Android%20APK-00F2FF?style=for-the-badge&logo=android&logoColor=0A0A0F" height="50" />
-  </a>
-  <br/><br/>
-  <p><strong>🔗 Direct Link:</strong> <a href="https://expo.dev/artifacts/eas/kHcpfcayvQPo3QPwt2LV5W.apk">kHcpfcayvQPo3QPwt2LV5W.apk</a></p>
-  <p><em>Scan the QR code below (from your phone's camera) to jump straight to the download:</em></p>
-  <img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://expo.dev/artifacts/eas/kHcpfcayvQPo3QPwt2LV5W.apk&color=00F2FF&bgcolor=0A0A0F" alt="APK QR Code" />
+  <table style="border: 2px solid #00F2FF; border-radius: 20px; background-color: #0A0A0F; padding: 20px; width: 450px;">
+    <tr>
+      <td align="center">
+        <h2 style="color: #00F2FF; margin-bottom: 5px;">hxni Express</h2>
+        <p style="color: #FFD700; font-size: 12px; letter-spacing: 2px;">PREMIUM STANDALONE BUILD</p>
+        <br/>
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=https://expo.dev/artifacts/eas/r8gqjVW4kGdsj1jnQgpzS6.apk&color=00F2FF&bgcolor=0A0A0F" alt="APK QR Code" />
+        <br/><br/>
+        <a href="https://expo.dev/artifacts/eas/r8gqjVW4kGdsj1jnQgpzS6.apk">
+          <img src="https://img.shields.io/badge/DOWNLOAD-APK-00F2FF?style=for-the-badge&logo=android&logoColor=0A0A0F" height="40" />
+        </a>
+        <p style="color: #666; font-size: 10px; margin-top: 10px;">Scan with Camera to Install</p>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
 
 ## ✨ Key Technical Features
 
+*   **Offline-First Architecture**: Zero dependency on external backend servers. Data is injected via local mock streams.
 *   **Cinematic UI Architecture**: Highly polished user interface featuring custom animations, blurred glassmorphism cards, and a deep obsidian color palette (`#0a0a0f`).
-*   **Parallax Navigation**: Smooth, 60fps native header animations using `Animated.ScrollView` for a professional feel.
-*   **Real-Time Data Streams**: Live restaurant fetching from a MySQL backend via a robust Node.js/Express API.
-*   **Zero-Latency Search**: Instant `.filter()` logic with category "Signal" chips for rapid discovery.
+*   **Parallax Navigation**: Smooth, 60fps native header animations using `Animated.ScrollView`.
 *   **Obsidian Brand Identity**: Neon Cyan and Gold accents provide a futuristic, enterprise-grade aesthetic.
 
 ---
 
 ## 📁 Installation & Setup
 
-### 1. The Backend (Node.js + MySQL)
-```bash
-cd backend
-npm install
-npm start
-```
-*Ensure MySQL is running with `backend/setup.sql` imported.*
-
-### 2. The Mobile App (Expo)
+### 1. Development Mode
 ```bash
 cd frontend
 npm install
 npx expo start
 ```
-*Connect via Expo Go using your local network IP.*
+
+### 2. Standalone APK
+Download the `.apk` from the scanner above and install it directly on any Android device.
 
 ---
 
@@ -66,8 +69,7 @@ npx expo start
 | Layer | Technology |
 |-------|-----------|
 | **Mobile Frontend** | React Native + Expo (SDK 52) |
-| **Backend API** | Node.js + Express |
-| **Database** | MySQL 8.0 |
+| **Logic** | Standalone Embedded Data |
 | **Styling** | Custom Glassmorphism System |
 
 ---
